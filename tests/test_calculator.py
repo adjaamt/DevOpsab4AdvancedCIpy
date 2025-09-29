@@ -15,7 +15,7 @@ class TestCalculator:
 
     def test_add(self):
         """Test addition operation."""
-        assert self.calc.add(2, 3) == 5
+        assert self.calc.add(2, 3) == 6  # This will fail - 2+3=5, not 6
         assert self.calc.add(-1, 1) == 0
         assert self.calc.add(0, 0) == 0
 
