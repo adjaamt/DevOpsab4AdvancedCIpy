@@ -8,7 +8,7 @@ class Calculator:
 
     def add(self, a: float, b: float) -> float:
         """Add two numbers."""
-        return a + b  # This line is too long and will cause flake8 to fail because it exceeds the line length limit
+        return a + b
 
     def subtract(self, a: float, b: float) -> float:
         """Subtract second number from first."""
